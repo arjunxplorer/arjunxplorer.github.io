@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="text-white">
+    <header class="fixed top-0 w-full bg-dark-black">
+        <div class="flex justify-between items-center max-w-6xl h-20 mx-auto">
+            <a href="" class="flex items-center">
+                <p class="text-2xl font-bold text-white">Arjun Sharma</p>
+            </a>
+            <div class="hidden md:flex items-center gap-10"> <!-- Show on screens larger than 'md' (medium) -->
+                <a href="#home" class="text-xl font-semibold hover:text-indigo-600">Home</a>
+                <a href="#about" class="text-xl font-semibold hover:text-indigo-600">About</a>
+                <a href="#projects" class="text-xl font-semibold hover:text-indigo-600">Projects</a>
+            </div>
+            <a href="#join">
+                <button class="bg-indigo-600 px-5 py-1 rounded text-xl font-semibold hover:ring-2">Join</button>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="max-w-6xl mx-auto">
+            <section id="home" class="h-screen md:h-80 w-full bg-contain bg-right bg-no-repeat mt-10 md:mb-20 rounded-full" style="background-image: url('assets/383.jpg');""> <!-- Reduced top margin on mobile -->
+                <div class="pt-10 md:pt-38 pb-10 md:pb-20"> <!-- Reduced padding on mobile -->
+                    <h1 class="text-5xl font-bold">Hi,</h1>
+                    <h1 class="text-5xl font-bold mt-4">I'm <span class="text-indigo-600">Arjun</span></h1>
+                    <h1 class="text-5xl font-bold mt-4 mb-10 md:mb-14">Aspiring Software Engineer</h1>
+                    
+                    <a href="https://www.linkedin.com/in/arjun-sharma-4aa24a258/" target="_blank">
+                        <button class="bg-indigo-600 px-4 py-3 rounded text-xl font-semibold hover:ring-2">Let's Connect</button>
+                    </a>
+                </div>
+            </section>
+            
+            <section id="about" class="py-10 md:py-24"> <!-- Reduced padding on mobile -->
+                <div class="flex flex-col md:flex-row gap-5 md:gap-48 py-8 md:py-24">
+                    <div class="md:w-1/2">
+                        <img src="assets/16627.jpg" alt="" class="h-80 md:h-96 rounded-full"/>
+                    </div>
+                    <div class="md:w-1/2">
+                        <p class="mt-10 md:mt-0 text-4xl font-bold">👋Hey there, I'm Arjun</p> <!-- Adjusted top margin on mobile -->
+                        <p class="mt-4 md:mt-8 text-lg text-gray-400">Dedicated and results-oriented, I am highly motivated to acquire new skills and knowledge to further my professional growth and achieve my career objectives. I take my personal and career development seriously, demonstrating a strong commitment to continuous learning and self-improvement.</p>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+
+            <section id="projects" class="py-10 md:py-24">
+                <div class="text-center">
+                    <p class="text-4xl font-bold">Projects</p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+                        <div class="h-[430px] bg-dark-gray rounded-xl flex flex-col gap-2 items-center">
+                            <img src="assets/project-2.png" alt="image-1" class="rounded-t-xl"/>
+                            <h3 class="text-2xl font-medium">Tip Calculator</h3>
+                            <p class="text-lg text-gray-400 px-2">Building Tip Calculator using Html, Css, and JavaScript</p>
+                            <a href="https://github.com/Code-Raiders/TipCalculator" target="_blank">
+                                <button class="bg-indigo-600 px-3 py-2 rounded shadow-xl hover:ring-2 my-4 text-xl">Get Code</button>
+                            </a>
+                        </div>
+
+                        <div class="h-[430px] bg-dark-gray rounded-xl flex flex-col gap-2 items-center">
+                            <img src="assets/project-1.png" alt="image-1" class="rounded-t-xl"/>
+                            <h3 class="text-2xl font-medium">Quiz Game</h3>
+                            <p class="text-lg text-gray-400 px-2">Building Quiz Game using Html, Css, and JavaScript</p>
+                            <a href="https://github.com/Code-Raiders/Quiz" target="_blank">
+                                <button class="bg-indigo-600 px-3 py-2 rounded shadow-xl hover:ring-2 my-4 text-xl">Get Code</button>
+                            </a>
+                        </div>
+
+                        <div class="h-[430px] bg-dark-gray rounded-xl flex flex-col gap-2 items-center">
+                            <img src="assets/project-3.png" alt="image-1" class="rounded-t-xl"/>
+                            <h3 class="text-2xl font-medium">Flexbox Project</h3>
+                            <p class="text-lg text-gray-400 px-2">Building Tip Calculator using Html and Css</p>
+                            <a href="https://github.com/Code-Raiders/FlexboxProjecct" target="_blank">
+                                <button class="bg-indigo-600 px-3 py-2 rounded shadow-xl hover:ring-2 my-4 text-xl">Get Code</button>
+                            </a>
+                        </div>
+
+                        <div class="h-[430px] bg-dark-gray rounded-xl flex flex-col gap-2 items-center">
+                            <img src="assets/project-4.png" alt="image-1" class="rounded-t-xl"/>
+                            <h3 class="text-2xl font-medium">Background Color Changer</h3>
+                            <p class="text-lg text-gray-400 px-2">Builded using Html, Css, and JavaScript</p>
+                            <a href="https://github.com/Code-Raiders/Background-Color-Changer" target="_blank">
+                                <button class="bg-indigo-600 px-3 py-2 rounded shadow-xl hover:ring-2 my-4 text-xl">Get Code</button>
+                            </a>
+                        </div>
+
+                        
+                </div>
+            </section>
+
+            <section id="join" class="py-10 md:py-24">
+                <div class="bg-indigo-600 flex flex-col justify-center items-center py-14">
+                    <h1 class="text-4xl font-bold">Subscribe to the newsletter</h1>
+                    <form class="flex flex-col items-center mt-5">
+                        <input type="Email" placeholder="Email address" required class="w-80 md:w-auto text-black rounded pl-2 py-2 md:py-5"/>
+                        <button class="bg-purple-600 px-2 py-1 text-lg font-semibold rounded shadow-xl hover:ring-2 md:mt-2">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="flex justify-between max-w-6xl mx-auto p-5">
+            <a href="#home">
+                <h1 class="text-xl font-bold">Go UP</h1>
+            </a>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-5 md:gap-10">
+                <a href="https://www.linkedin.com/in/arjun-sharma-4aa24a258/" target="_blank" class="text-xl font-bold">LinkedIn</a>
+                <!-- Add more social links here -->
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
